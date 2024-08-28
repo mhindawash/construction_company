@@ -34,7 +34,7 @@ The goal of this project is to create a professional, responsive, and user-frien
 
 ## Setup
 
-1.) To run this project locally:
+To run this project locally:
 
 Clone the repository and navigate to the project directory. Install the dependencies using `npm install`. Start the development server with `npm start`. Open your browser and go to `http://localhost:3000`.
 
