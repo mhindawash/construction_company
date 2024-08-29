@@ -62,6 +62,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-- **Name**: [Your Name]
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Name**: Moe Green
+- **Email**: mo3greentv@gmail.com
+- **LinkedIn**: N/A
