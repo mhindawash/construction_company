@@ -1,0 +1,25 @@
+.footer {
+    background-color: #333; /* Dark background for contrast */
+    color: white; /* White text for clarity */
+    text-align: center; /* Centered text for a clean look */
+    padding: 20px; /* Adequate padding for visual comfort */
+    font-size: 0.8em; /* Smaller font size for a subtle appearance */
+    display: flex; /* Using flex to align and justify content */
+    justify-content: space-between; /* Distributing space between elements */
+    align-items: center; /* Vertically align elements in the footer */
+}
+
+.footer-links {
+    display: flex; /* Flex display for inline alignment of links */
+    gap: 15px; /* Space between links */
+}
+
+.footer-links a {
+    color: white; /* White link color to match the text */
+    text-decoration: none; /* No underline to keep it minimal */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-links a:hover {
+    color: #FFD700; /* Gold color for hover effect, adjust as needed */
+}

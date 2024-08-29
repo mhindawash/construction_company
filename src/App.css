@@ -1,24 +1,63 @@
-header, footer {
-  background-color: #333;
-  color: white;
-  padding: 1em;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Ensure text is dark and easy to read */
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
+h1, h2 {
+    color: #222; /* Slightly darker heading colors */
+    font-weight: 600; /* Bold but not overly heavy */
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 15px;
+p {
+    margin: 0 0 1em; /* Space between paragraphs */
 }
 
+/* Layout and Spacing */
 main {
-  padding: 2em;
+  max-width: 1200px; /* Limit content width for better readability */
+  margin: 0 auto; /* Center the main content */
+  padding: 20px; /* Add padding for space */
+  display: flex;
+  flex-wrap: wrap; /* Ensure content wraps nicely on smaller screens */
+  gap: 20px; /* Space between sections */
 }
 
+/* Section Styling */
+section {
+  flex: 1; /* Allow sections to take equal space */
+  min-width: 300px; /* Ensure sections don't get too small */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light grey background for contrast */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading Styling */
 h2 {
-  color: #333;
+  color: #0056b3; /* A professional shade of blue */
+  margin-bottom: 15px;
+  font-size: 1.5em; /* Slightly larger font for section headings */
+}
+
+/* List Styling */
+ul {
+  list-style-type: disc; /* Disc list style for a more professional look */
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+/* Paragraphs */
+section p {
+  font-size: 1em; /* Maintain a readable font size */
+}
+
+section:last-of-type {
+  margin-bottom: 40px; /* Extra space at the bottom of the last section */
 }

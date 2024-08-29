@@ -1,0 +1,41 @@
+.header {
+    background-color: #fff; /* White background for a clean look */
+    color: #333; /* Dark grey text for readability */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Reduced padding for a slimmer profile */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    height: 60px; /* Restrict height to make the header less bulky */
+}
+
+.header .logo a {
+    color: #0056b3; /* Example company color, change as needed */
+    font-size: 1.2em; /* Smaller font size for the logo */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+    padding: 0; /* Ensure padding is zero for a compact nav */
+}
+
+.main-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 8px 10px; /* Slightly pad links for better clickability */
+    transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    color: #0056b3; /* Highlight color on hover */
+}
